@@ -1,0 +1,69 @@
+filename,workflow_name,category,node_count,composite_risk_score,credential_score,hardcoded_secrets_found,error_handling_score,has_error_handling,autonomy_score,autonomy_tier,audit_score,has_logging_node
+AI_Research_RAG_and_Data_Analysis__Live_Web_Research_Agent_with_Superhighway.json,Live Web Research Agent with Superhighway,AI_Research_RAG_and_Data_Analysis,7,76.5,100,0,20,False,100,Observe,50,False
+AI_Research_RAG_and_Data_Analysis__Scrape_and_summarize_posts_of_a_news_site_without_RSS_feed_using_AI_and_save_them_to_a_NocoDB.json,News Extraction,AI_Research_RAG_and_Data_Analysis,36,76.5,100,0,20,False,100,Observe,50,False
+AI_Research_RAG_and_Data_Analysis__Summarize_Umami_data_with_AI_(via_Openrouter)_and_save_it_to_Baserow.json,Umami analytics template,AI_Research_RAG_and_Data_Analysis,17,46.8,100,0,20,False,15,Autonomous,50,False
+AI_Research_RAG_and_Data_Analysis__Vector_Database_as_a_Big_Data_Analysis_Tool_for_AI_Agents_[1_3_anomaly][1_2_KNN].json,[1/3 - anomaly detection] [1/2 - KNN classification] Batch upload dataset to Qdrant (crops dataset),AI_Research_RAG_and_Data_Analysis,25,46.8,100,0,20,False,15,Autonomous,50,False
+Airtable__AI_Agent_for_project_management_and_meetings_with_Airtable_and_Fireflies.json,unnamed,Airtable,18,45.2,95,0,20,False,15,Autonomous,50,False
+Airtable__AI_Agent_to_chat_with_Airtable_and_analyze_data.json,unnamed,Airtable,41,45.2,95,0,20,False,15,Autonomous,50,False
+Airtable__Handling_Job_Application_Submissions_with_AI_and_n8n_Forms.json,unnamed,Airtable,23,69.5,100,0,20,False,80,Assist,50,False
+Airtable__vAssistant_for_Hubspot_Chat_using_OpenAi_and_Airtable.json,OpenAI Assistant for Hubspot Chat,Airtable,34,69.5,100,0,20,False,80,Assist,50,False
+Database_and_Storage__Chat_with_Postgresql_Database.json,Chat with Postgresql Database,Database_and_Storage,11,84.0,100,0,20,False,100,Observe,100,True
+Database_and_Storage__MongoDB_AI_Agent_-_Intelligent_Movie_Recommendations.json,MongoDB Agent,Database_and_Storage,8,76.5,100,0,20,False,100,Observe,50,False
+Database_and_Storage__Supabase_Insertion_&_Upsertion_&_Retrieval.json,unnamed,Database_and_Storage,21,76.5,100,0,20,False,100,Observe,50,False
+Database_and_Storage__Talk_to_your_SQLite_database_with_a_LangChain_AI_Agent.json,SQL agent with memory,Database_and_Storage,13,76.5,100,0,20,False,100,Observe,50,False
+Discord__Discord_AI-powered_bot.json,Discord AI bot,Discord,9,42.2,85,0,20,False,15,Autonomous,50,False
+Discord__Send_daily_translated_Calvin_and_Hobbes_Comics_to_Discord.json,unnamed,Discord,8,55.5,100,0,20,False,40,Execute-with-gap,50,False
+Discord__Share_YouTube_Videos_with_AI_Summaries_on_Discord.json,YouTube Videos with AI Summaries on Discord,Discord,8,55.5,100,0,20,False,40,Execute-with-gap,50,False
+Forms_and_Surveys__Conversational_Interviews_with_AI_Agents_and_n8n_Forms.json,unnamed,Forms_and_Surveys,40,69.5,100,0,20,False,80,Assist,50,False
+"Forms_and_Surveys__Email_Subscription_Service_with_n8n_Forms,_Airtable_and_AI.json",unnamed,Forms_and_Surveys,32,77.0,100,0,20,False,80,Assist,100,True
+Forms_and_Surveys__Qualifying_Appointment_Requests_with_AI_&_n8n_Forms.json,unnamed,Forms_and_Surveys,25,69.5,100,0,20,False,80,Assist,50,False
+Forms_and_Surveys__Tunova_-_Generate_a_song_from_a_form.json,Tunova — Generate a song from a form,Forms_and_Surveys,5,69.5,100,0,20,False,80,Assist,50,False
+Gmail_and_Email_Automation__Compose_reply_draft_in_Gmail_with_OpenAI_Assistant.json,unnamed,Gmail_and_Email_Automation,23,46.8,100,0,20,False,15,Autonomous,50,False
+Gmail_and_Email_Automation__Daily_Email_Notification.json,Daily IMAP Email Summary to Telegram (Local Ollama),Gmail_and_Email_Automation,14,43.8,90,0,20,False,15,Autonomous,50,False
+Gmail_and_Email_Automation__Microsoft_Outlook_AI_Email_Assistant_with_contact_support_from_Monday_and_Airtable.json,Microsoft Outlook AI Email Assistant,Gmail_and_Email_Automation,28,46.8,100,0,20,False,15,Autonomous,50,False
+Gmail_and_Email_Automation__📈_Receive_Daily_Market_News_from_FT.com_to_your_Microsoft_outlook_inbox.json,unnamed,Gmail_and_Email_Automation,8,76.5,100,0,20,False,100,Observe,50,False
+Google_Drive_and_Google_Sheets__Author_and_Publish_Blog_Posts_From_Google_Sheets.json,Blog Automation TEMPLATE,Google_Drive_and_Google_Sheets,35,52.8,95,0,20,False,15,Autonomous,100,True
+"Google_Drive_and_Google_Sheets__Extract_Information_from_a_Logo_Sheet_using_forms,_AI,_Google_Sheet_and_Airtable.json",AI Logo Sheet Extractor to Airtable,Google_Drive_and_Google_Sheets,44,69.5,100,0,20,False,80,Assist,50,False
+Google_Drive_and_Google_Sheets__RAG_Chatbot_for_Company_Documents_using_Google_Drive_and_Gemini.json,RAG Workflow For Company Documents stored in Google Drive,Google_Drive_and_Google_Sheets,18,76.5,100,0,20,False,100,Observe,50,False
+Google_Drive_and_Google_Sheets__Summarize_the_New_Documents_from_Google_Drive_and_Save_Summary_in_Google_Sheet.json,Google Doc Summarizer to Google Sheets,Google_Drive_and_Google_Sheets,12,55.5,100,0,20,False,40,Execute-with-gap,50,False
+HR_and_Recruitment__BambooHR_AI-Powered_Company_Policies_and_Benefits_Chatbot.json,BambooHR AI-Powered Company Policies and Benefits Chatbot,HR_and_Recruitment,50,76.5,100,0,20,False,100,Observe,50,False
+HR_and_Recruitment__CV_Screening_with_OpenAI.json,unnamed,HR_and_Recruitment,11,55.5,100,0,20,False,40,Execute-with-gap,50,False
+HR_and_Recruitment__HR_&_IT_Helpdesk_Chatbot_with_Audio_Transcription.json,HR & IT Helpdesk Chatbot with Audio Transcription,HR_and_Recruitment,27,76.5,100,0,20,False,100,Observe,50,False
+HR_and_Recruitment__HR_Job_Posting_and_Evaluation_with_AI.json,HR Job Posting and Evaluation with AI,HR_and_Recruitment,36,69.5,100,0,20,False,80,Assist,50,False
+Instagram_Twitter_Social_Media__FlowScribe_Lite_-_AI_Content_Repurposing_4_Platforms.json,FlowScribe Lite — Quick 4-Platform Repurpose,Instagram_Twitter_Social_Media,12,54.0,95,0,20,False,40,Execute-with-gap,50,False
+Instagram_Twitter_Social_Media__Monitor_X_Search_with_Xquik.json,Monitor X Search with Xquik,Instagram_Twitter_Social_Media,5,76.5,100,0,20,False,100,Observe,50,False
+Instagram_Twitter_Social_Media__Reddit_AI_digest.json,unnamed,Instagram_Twitter_Social_Media,15,76.5,100,0,20,False,100,Observe,50,False
+Instagram_Twitter_Social_Media__Twitter_Virtual_AI_Influencer.json,unnamed,Instagram_Twitter_Social_Media,12,76.5,100,0,20,False,100,Observe,50,False
+Notion__Add_positive_feedback_messages_to_a_table_in_Notion.json,unnamed,Notion,6,46.8,100,0,20,False,15,Autonomous,50,False
+"Notion__Turn_Emails_into_AI-Enhanced_Tasks_in_Notion_(Multi-User_Support)_with_Gmail,_Airtable_and_Softr.json",mails2notion V2,Notion,38,45.2,95,0,20,False,15,Autonomous,50,False
+Notion__Upsert_huge_documents_in_a_vector_store_with_Supabase_and_Notion.json,RAG on living data,Notion,34,46.8,100,0,20,False,15,Autonomous,50,False
+OpenAI_and_LLMs__Chat_with_local_LLMs_using_n8n_and_Ollama.json,Chat with local LLMs using n8n and Ollama,OpenAI_and_LLMs,5,76.5,100,0,20,False,100,Observe,50,False
+OpenAI_and_LLMs__Dynamically_generate_a_webpage_from_user_request_using_OpenAI_Structured_Output.json,Dynamically generate HTML page from user request using OpenAI Structured Output,OpenAI_and_LLMs,7,55.5,100,0,20,False,40,Execute-with-gap,50,False
+OpenAI_and_LLMs__⚡AI-Powered_YouTube_Video_Summarization_&_Analysis.json,unnamed,OpenAI_and_LLMs,12,76.5,100,0,20,False,100,Observe,50,False
+Other_Integrations_and_Use_Cases__Analyze_feedback_using_AWS_Comprehend_and_send_it_to_a_Mattermost_channel.json,unnamed,Other_Integrations_and_Use_Cases,5,76.5,100,0,20,False,100,Observe,50,False
+Other_Integrations_and_Use_Cases__Qualify_replies_from_Pipedrive_persons_with_AI.json,unnamed,Other_Integrations_and_Use_Cases,11,76.5,100,0,20,False,100,Observe,50,False
+Other_Integrations_and_Use_Cases__Siri_AI_Agent__Apple_Shortcuts_powered_voice_template.json,unnamed,Other_Integrations_and_Use_Cases,7,76.5,100,0,20,False,100,Observe,50,False
+Other_Integrations_and_Use_Cases__Tunova_-_Generate_a_song_via_webhook.json,Tunova — Generate a song via webhook (drop-in API),Other_Integrations_and_Use_Cases,5,69.5,100,0,20,False,80,Assist,50,False
+PDF_and_Document_Processing__CV_Resume_PDF_Parsing_with_Multimodal_Vision_AI.json,unnamed,PDF_and_Document_Processing,13,54.0,95,0,20,False,40,Execute-with-gap,50,False
+PDF_and_Document_Processing__Invoice_data_extraction_with_human-in-the-loop_validation_and_auto-training_using_Cradl_AI.json,PDF invoice data extraction with human-in-the-loop from GMail to Google Sheets,PDF_and_Document_Processing,10,43.8,90,0,20,False,15,Autonomous,50,False
+PDF_and_Document_Processing__Manipulate_PDF_with_Adobe_developer_API.json,unnamed,PDF_and_Document_Processing,20,68.0,95,0,20,False,80,Assist,50,False
+PDF_and_Document_Processing__Remove_Personally_Identifiable_Information_(PII)_from_CSV_Files_with_OpenAI.json,unnamed,PDF_and_Document_Processing,10,76.5,100,0,20,False,100,Observe,50,False
+Slack__Customer_Support_Channel_and_Ticketing_System_with_Slack_and_Linear.json,unnamed,Slack,19,55.5,100,0,20,False,40,Execute-with-gap,50,False
+Slack__Enrich_Pipedrive_s_Organization_Data_with_OpenAI_GPT-4o_&_Notify_it_in_Slack.json,piepdrive-test,Slack,8,55.5,100,0,20,False,40,Execute-with-gap,50,False
+Slack__Sentiment_Analysis_Tracking_on_Support_Issues_with_Linear_and_Slack.json,unnamed,Slack,19,46.8,100,0,20,False,15,Autonomous,50,False
+Slack__Slack_slash_commands_AI_Chat_Bot.json,My workflow 6,Slack,11,54.0,95,0,20,False,40,Execute-with-gap,50,False
+Telegram__Telegram_AI_Bot__NeurochainAI_Text_&_Image_-_NeurochainAI_Basic_API_Integration.json,NeurochainAI Basic API Integration,Telegram,29,43.8,90,0,20,False,15,Autonomous,50,False
+Telegram__Telegram_to_Spotify_with_OpenAI.json,Play with Spotify from Telegram,Telegram,14,76.5,100,0,20,False,100,Observe,50,False
+Telegram__🤖_Telegram_Messaging_Agent_for_Text_Audio_Images.json,🤖 Telegram Messaging Agent for Text/Audio/Images,Telegram,39,76.5,100,0,20,False,100,Observe,50,False
+Telegram__🤖🧠_AI_Agent_Chatbot_+_LONG_TERM_Memory_+_Note_Storage_+_Telegram.json,🤖🧠 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram,Telegram,21,76.5,100,0,20,False,100,Observe,50,False
+WhatsApp__Automate_Sales_Meeting_Prep_with_AI_&_APIFY_Sent_To_WhatsApp.json,unnamed,WhatsApp,61,46.8,100,0,20,False,15,Autonomous,50,False
+WhatsApp__Building_Your_First_WhatsApp_Chatbot.json,unnamed,WhatsApp,28,84.0,100,0,20,False,100,Observe,100,True
+WhatsApp__Complete_business_WhatsApp_AI-Powered_RAG_Chatbot_using_OpenAI.json,Business WhatsApp AI RAG Chatbot,WhatsApp,24,46.8,100,0,20,False,15,Autonomous,50,False
+WhatsApp__Respond_to_WhatsApp_Messages_with_AI_Like_a_Pro!.json,unnamed,WhatsApp,35,69.5,100,0,20,False,80,Assist,50,False
+WordPress__Auto-Tag_Blog_Posts_in_WordPress_with_AI.json,Auto-Tag Blog Posts in WordPress with AI,WordPress,32,55.5,100,0,20,False,40,Execute-with-gap,50,False
+WordPress__Automate_Content_Generator_for_WordPress_with_DeepSeek_R1.json,Automate Content Generator for WordPress with DeepSeek R1,WordPress,17,46.8,100,0,20,False,15,Autonomous,50,False
+WordPress__WordPress_-_AI_Chatbot_to_enhance_user_experience_-_with_Supabase_and_OpenAI.json,RAG & GenAI App With WordPress Content,WordPress,53,48.2,80,0,20,False,15,Autonomous,100,True
+WordPress__Write_a_WordPress_post_with_AI_(starting_from_a_few_keywords).json,Write a WordPress post with AI (starting from a few keywords),WordPress,37,69.5,100,0,20,False,80,Assist,50,False
+devops__disk-space-watchdog.json,Disk space watchdog with tiered thresholds and Telegram alert,devops,6,55.5,100,0,20,False,40,Execute-with-gap,50,False
+devops__docker-compose-controller.json,Start/Stop a Docker service,devops,13,76.5,100,0,20,False,100,Observe,50,False
+devops__linux-update-via-webhook.json,Update Server,devops,4,76.5,100,0,20,False,100,Observe,50,False

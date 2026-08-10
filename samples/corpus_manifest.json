@@ -1,0 +1,410 @@
+[
+  {
+    "category": "AI_Research_RAG_and_Data_Analysis",
+    "original_file": "Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB.json",
+    "saved_as": "AI_Research_RAG_and_Data_Analysis__Scrape_and_summarize_posts_of_a_news_site_without_RSS_feed_using_AI_and_save_them_to_a_NocoDB.json",
+    "node_count": 36
+  },
+  {
+    "category": "AI_Research_RAG_and_Data_Analysis",
+    "original_file": "Summarize Umami data with AI (via Openrouter) and save it to Baserow.json",
+    "saved_as": "AI_Research_RAG_and_Data_Analysis__Summarize_Umami_data_with_AI_(via_Openrouter)_and_save_it_to_Baserow.json",
+    "node_count": 17
+  },
+  {
+    "category": "AI_Research_RAG_and_Data_Analysis",
+    "original_file": "Live Web Research Agent with Superhighway.json",
+    "saved_as": "AI_Research_RAG_and_Data_Analysis__Live_Web_Research_Agent_with_Superhighway.json",
+    "node_count": 7
+  },
+  {
+    "category": "AI_Research_RAG_and_Data_Analysis",
+    "original_file": "Vector Database as a Big Data Analysis Tool for AI Agents [1_3 anomaly][1_2 KNN].json",
+    "saved_as": "AI_Research_RAG_and_Data_Analysis__Vector_Database_as_a_Big_Data_Analysis_Tool_for_AI_Agents_[1_3_anomaly][1_2_KNN].json",
+    "node_count": 25
+  },
+  {
+    "category": "Airtable",
+    "original_file": "vAssistant for Hubspot Chat using OpenAi and Airtable.json",
+    "saved_as": "Airtable__vAssistant_for_Hubspot_Chat_using_OpenAi_and_Airtable.json",
+    "node_count": 34
+  },
+  {
+    "category": "Airtable",
+    "original_file": "Handling Job Application Submissions with AI and n8n Forms.json",
+    "saved_as": "Airtable__Handling_Job_Application_Submissions_with_AI_and_n8n_Forms.json",
+    "node_count": 23
+  },
+  {
+    "category": "Airtable",
+    "original_file": "AI Agent for project management and meetings with Airtable and Fireflies.json",
+    "saved_as": "Airtable__AI_Agent_for_project_management_and_meetings_with_Airtable_and_Fireflies.json",
+    "node_count": 18
+  },
+  {
+    "category": "Airtable",
+    "original_file": "AI Agent to chat with Airtable and analyze data.json",
+    "saved_as": "Airtable__AI_Agent_to_chat_with_Airtable_and_analyze_data.json",
+    "node_count": 41
+  },
+  {
+    "category": "Database_and_Storage",
+    "original_file": "Talk to your SQLite database with a LangChain AI Agent.json",
+    "saved_as": "Database_and_Storage__Talk_to_your_SQLite_database_with_a_LangChain_AI_Agent.json",
+    "node_count": 13
+  },
+  {
+    "category": "Database_and_Storage",
+    "original_file": "Chat with Postgresql Database.json",
+    "saved_as": "Database_and_Storage__Chat_with_Postgresql_Database.json",
+    "node_count": 11
+  },
+  {
+    "category": "Database_and_Storage",
+    "original_file": "MongoDB AI Agent - Intelligent Movie Recommendations.json",
+    "saved_as": "Database_and_Storage__MongoDB_AI_Agent_-_Intelligent_Movie_Recommendations.json",
+    "node_count": 8
+  },
+  {
+    "category": "Database_and_Storage",
+    "original_file": "Supabase Insertion & Upsertion & Retrieval.json",
+    "saved_as": "Database_and_Storage__Supabase_Insertion_&_Upsertion_&_Retrieval.json",
+    "node_count": 21
+  },
+  {
+    "category": "Discord",
+    "original_file": "Send daily translated Calvin and Hobbes Comics to Discord.json",
+    "saved_as": "Discord__Send_daily_translated_Calvin_and_Hobbes_Comics_to_Discord.json",
+    "node_count": 8
+  },
+  {
+    "category": "Discord",
+    "original_file": "Share YouTube Videos with AI Summaries on Discord.json",
+    "saved_as": "Discord__Share_YouTube_Videos_with_AI_Summaries_on_Discord.json",
+    "node_count": 8
+  },
+  {
+    "category": "Discord",
+    "original_file": "Discord AI-powered bot.json",
+    "saved_as": "Discord__Discord_AI-powered_bot.json",
+    "node_count": 9
+  },
+  {
+    "category": "Forms_and_Surveys",
+    "original_file": "Email Subscription Service with n8n Forms, Airtable and AI.json",
+    "saved_as": "Forms_and_Surveys__Email_Subscription_Service_with_n8n_Forms,_Airtable_and_AI.json",
+    "node_count": 32
+  },
+  {
+    "category": "Forms_and_Surveys",
+    "original_file": "Tunova - Generate a song from a form.json",
+    "saved_as": "Forms_and_Surveys__Tunova_-_Generate_a_song_from_a_form.json",
+    "node_count": 5
+  },
+  {
+    "category": "Forms_and_Surveys",
+    "original_file": "Conversational Interviews with AI Agents and n8n Forms.json",
+    "saved_as": "Forms_and_Surveys__Conversational_Interviews_with_AI_Agents_and_n8n_Forms.json",
+    "node_count": 40
+  },
+  {
+    "category": "Forms_and_Surveys",
+    "original_file": "Qualifying Appointment Requests with AI & n8n Forms.json",
+    "saved_as": "Forms_and_Surveys__Qualifying_Appointment_Requests_with_AI_&_n8n_Forms.json",
+    "node_count": 25
+  },
+  {
+    "category": "Gmail_and_Email_Automation",
+    "original_file": "\ud83d\udcc8 Receive Daily Market News from FT.com to your Microsoft outlook inbox.json",
+    "saved_as": "Gmail_and_Email_Automation__\ud83d\udcc8_Receive_Daily_Market_News_from_FT.com_to_your_Microsoft_outlook_inbox.json",
+    "node_count": 8
+  },
+  {
+    "category": "Gmail_and_Email_Automation",
+    "original_file": "Compose reply draft in Gmail with OpenAI Assistant.json",
+    "saved_as": "Gmail_and_Email_Automation__Compose_reply_draft_in_Gmail_with_OpenAI_Assistant.json",
+    "node_count": 23
+  },
+  {
+    "category": "Gmail_and_Email_Automation",
+    "original_file": "Daily Email Notification.json",
+    "saved_as": "Gmail_and_Email_Automation__Daily_Email_Notification.json",
+    "node_count": 14
+  },
+  {
+    "category": "Gmail_and_Email_Automation",
+    "original_file": "Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable.json",
+    "saved_as": "Gmail_and_Email_Automation__Microsoft_Outlook_AI_Email_Assistant_with_contact_support_from_Monday_and_Airtable.json",
+    "node_count": 28
+  },
+  {
+    "category": "Google_Drive_and_Google_Sheets",
+    "original_file": "Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.json",
+    "saved_as": "Google_Drive_and_Google_Sheets__Extract_Information_from_a_Logo_Sheet_using_forms,_AI,_Google_Sheet_and_Airtable.json",
+    "node_count": 44
+  },
+  {
+    "category": "Google_Drive_and_Google_Sheets",
+    "original_file": "RAG Chatbot for Company Documents using Google Drive and Gemini.json",
+    "saved_as": "Google_Drive_and_Google_Sheets__RAG_Chatbot_for_Company_Documents_using_Google_Drive_and_Gemini.json",
+    "node_count": 18
+  },
+  {
+    "category": "Google_Drive_and_Google_Sheets",
+    "original_file": "Author and Publish Blog Posts From Google Sheets.json",
+    "saved_as": "Google_Drive_and_Google_Sheets__Author_and_Publish_Blog_Posts_From_Google_Sheets.json",
+    "node_count": 35
+  },
+  {
+    "category": "Google_Drive_and_Google_Sheets",
+    "original_file": "Summarize the New Documents from Google Drive and Save Summary in Google Sheet.json",
+    "saved_as": "Google_Drive_and_Google_Sheets__Summarize_the_New_Documents_from_Google_Drive_and_Save_Summary_in_Google_Sheet.json",
+    "node_count": 12
+  },
+  {
+    "category": "HR_and_Recruitment",
+    "original_file": "HR Job Posting and Evaluation with AI.json",
+    "saved_as": "HR_and_Recruitment__HR_Job_Posting_and_Evaluation_with_AI.json",
+    "node_count": 36
+  },
+  {
+    "category": "HR_and_Recruitment",
+    "original_file": "HR & IT Helpdesk Chatbot with Audio Transcription.json",
+    "saved_as": "HR_and_Recruitment__HR_&_IT_Helpdesk_Chatbot_with_Audio_Transcription.json",
+    "node_count": 27
+  },
+  {
+    "category": "HR_and_Recruitment",
+    "original_file": "CV Screening with OpenAI.json",
+    "saved_as": "HR_and_Recruitment__CV_Screening_with_OpenAI.json",
+    "node_count": 11
+  },
+  {
+    "category": "HR_and_Recruitment",
+    "original_file": "BambooHR AI-Powered Company Policies and Benefits Chatbot.json",
+    "saved_as": "HR_and_Recruitment__BambooHR_AI-Powered_Company_Policies_and_Benefits_Chatbot.json",
+    "node_count": 50
+  },
+  {
+    "category": "Instagram_Twitter_Social_Media",
+    "original_file": "FlowScribe Lite - AI Content Repurposing 4 Platforms.json",
+    "saved_as": "Instagram_Twitter_Social_Media__FlowScribe_Lite_-_AI_Content_Repurposing_4_Platforms.json",
+    "node_count": 12
+  },
+  {
+    "category": "Instagram_Twitter_Social_Media",
+    "original_file": "Reddit AI digest.json",
+    "saved_as": "Instagram_Twitter_Social_Media__Reddit_AI_digest.json",
+    "node_count": 15
+  },
+  {
+    "category": "Instagram_Twitter_Social_Media",
+    "original_file": "Monitor X Search with Xquik.json",
+    "saved_as": "Instagram_Twitter_Social_Media__Monitor_X_Search_with_Xquik.json",
+    "node_count": 5
+  },
+  {
+    "category": "Instagram_Twitter_Social_Media",
+    "original_file": "Twitter Virtual AI Influencer.json",
+    "saved_as": "Instagram_Twitter_Social_Media__Twitter_Virtual_AI_Influencer.json",
+    "node_count": 12
+  },
+  {
+    "category": "Notion",
+    "original_file": "Upsert huge documents in a vector store with Supabase and Notion.json",
+    "saved_as": "Notion__Upsert_huge_documents_in_a_vector_store_with_Supabase_and_Notion.json",
+    "node_count": 34
+  },
+  {
+    "category": "Notion",
+    "original_file": "Add positive feedback messages to a table in Notion.json",
+    "saved_as": "Notion__Add_positive_feedback_messages_to_a_table_in_Notion.json",
+    "node_count": 6
+  },
+  {
+    "category": "Notion",
+    "original_file": "Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr.json",
+    "saved_as": "Notion__Turn_Emails_into_AI-Enhanced_Tasks_in_Notion_(Multi-User_Support)_with_Gmail,_Airtable_and_Softr.json",
+    "node_count": 38
+  },
+  {
+    "category": "OpenAI_and_LLMs",
+    "original_file": "Dynamically generate a webpage from user request using OpenAI Structured Output.json",
+    "saved_as": "OpenAI_and_LLMs__Dynamically_generate_a_webpage_from_user_request_using_OpenAI_Structured_Output.json",
+    "node_count": 7
+  },
+  {
+    "category": "OpenAI_and_LLMs",
+    "original_file": "Chat with local LLMs using n8n and Ollama.json",
+    "saved_as": "OpenAI_and_LLMs__Chat_with_local_LLMs_using_n8n_and_Ollama.json",
+    "node_count": 5
+  },
+  {
+    "category": "OpenAI_and_LLMs",
+    "original_file": "\u26a1AI-Powered YouTube Video Summarization & Analysis.json",
+    "saved_as": "OpenAI_and_LLMs__\u26a1AI-Powered_YouTube_Video_Summarization_&_Analysis.json",
+    "node_count": 12
+  },
+  {
+    "category": "Other_Integrations_and_Use_Cases",
+    "original_file": "Siri AI Agent_ Apple Shortcuts powered voice template.json",
+    "saved_as": "Other_Integrations_and_Use_Cases__Siri_AI_Agent__Apple_Shortcuts_powered_voice_template.json",
+    "node_count": 7
+  },
+  {
+    "category": "Other_Integrations_and_Use_Cases",
+    "original_file": "Tunova - Generate a song via webhook.json",
+    "saved_as": "Other_Integrations_and_Use_Cases__Tunova_-_Generate_a_song_via_webhook.json",
+    "node_count": 5
+  },
+  {
+    "category": "Other_Integrations_and_Use_Cases",
+    "original_file": "Qualify replies from Pipedrive persons with AI.json",
+    "saved_as": "Other_Integrations_and_Use_Cases__Qualify_replies_from_Pipedrive_persons_with_AI.json",
+    "node_count": 11
+  },
+  {
+    "category": "Other_Integrations_and_Use_Cases",
+    "original_file": "Analyze feedback using AWS Comprehend and send it to a Mattermost channel.json",
+    "saved_as": "Other_Integrations_and_Use_Cases__Analyze_feedback_using_AWS_Comprehend_and_send_it_to_a_Mattermost_channel.json",
+    "node_count": 5
+  },
+  {
+    "category": "PDF_and_Document_Processing",
+    "original_file": "Remove Personally Identifiable Information (PII) from CSV Files with OpenAI.json",
+    "saved_as": "PDF_and_Document_Processing__Remove_Personally_Identifiable_Information_(PII)_from_CSV_Files_with_OpenAI.json",
+    "node_count": 10
+  },
+  {
+    "category": "PDF_and_Document_Processing",
+    "original_file": "Manipulate PDF with Adobe developer API.json",
+    "saved_as": "PDF_and_Document_Processing__Manipulate_PDF_with_Adobe_developer_API.json",
+    "node_count": 20
+  },
+  {
+    "category": "PDF_and_Document_Processing",
+    "original_file": "CV Resume PDF Parsing with Multimodal Vision AI.json",
+    "saved_as": "PDF_and_Document_Processing__CV_Resume_PDF_Parsing_with_Multimodal_Vision_AI.json",
+    "node_count": 13
+  },
+  {
+    "category": "PDF_and_Document_Processing",
+    "original_file": "Invoice data extraction with human-in-the-loop validation and auto-training using Cradl AI.json",
+    "saved_as": "PDF_and_Document_Processing__Invoice_data_extraction_with_human-in-the-loop_validation_and_auto-training_using_Cradl_AI.json",
+    "node_count": 10
+  },
+  {
+    "category": "Slack",
+    "original_file": "Slack slash commands AI Chat Bot.json",
+    "saved_as": "Slack__Slack_slash_commands_AI_Chat_Bot.json",
+    "node_count": 11
+  },
+  {
+    "category": "Slack",
+    "original_file": "Sentiment Analysis Tracking on Support Issues with Linear and Slack.json",
+    "saved_as": "Slack__Sentiment_Analysis_Tracking_on_Support_Issues_with_Linear_and_Slack.json",
+    "node_count": 19
+  },
+  {
+    "category": "Slack",
+    "original_file": "Customer Support Channel and Ticketing System with Slack and Linear.json",
+    "saved_as": "Slack__Customer_Support_Channel_and_Ticketing_System_with_Slack_and_Linear.json",
+    "node_count": 19
+  },
+  {
+    "category": "Slack",
+    "original_file": "Enrich Pipedrive_s Organization Data with OpenAI GPT-4o & Notify it in Slack.json",
+    "saved_as": "Slack__Enrich_Pipedrive_s_Organization_Data_with_OpenAI_GPT-4o_&_Notify_it_in_Slack.json",
+    "node_count": 8
+  },
+  {
+    "category": "Telegram",
+    "original_file": "Telegram AI Bot_ NeurochainAI Text & Image - NeurochainAI Basic API Integration.json",
+    "saved_as": "Telegram__Telegram_AI_Bot__NeurochainAI_Text_&_Image_-_NeurochainAI_Basic_API_Integration.json",
+    "node_count": 29
+  },
+  {
+    "category": "Telegram",
+    "original_file": "\ud83e\udd16 Telegram Messaging Agent for Text_Audio_Images.json",
+    "saved_as": "Telegram__\ud83e\udd16_Telegram_Messaging_Agent_for_Text_Audio_Images.json",
+    "node_count": 39
+  },
+  {
+    "category": "Telegram",
+    "original_file": "\ud83e\udd16\ud83e\udde0 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram.json",
+    "saved_as": "Telegram__\ud83e\udd16\ud83e\udde0_AI_Agent_Chatbot_+_LONG_TERM_Memory_+_Note_Storage_+_Telegram.json",
+    "node_count": 21
+  },
+  {
+    "category": "Telegram",
+    "original_file": "Telegram to Spotify with OpenAI.json",
+    "saved_as": "Telegram__Telegram_to_Spotify_with_OpenAI.json",
+    "node_count": 14
+  },
+  {
+    "category": "WhatsApp",
+    "original_file": "Building Your First WhatsApp Chatbot.json",
+    "saved_as": "WhatsApp__Building_Your_First_WhatsApp_Chatbot.json",
+    "node_count": 28
+  },
+  {
+    "category": "WhatsApp",
+    "original_file": "Respond to WhatsApp Messages with AI Like a Pro!.json",
+    "saved_as": "WhatsApp__Respond_to_WhatsApp_Messages_with_AI_Like_a_Pro!.json",
+    "node_count": 35
+  },
+  {
+    "category": "WhatsApp",
+    "original_file": "Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI.json",
+    "saved_as": "WhatsApp__Complete_business_WhatsApp_AI-Powered_RAG_Chatbot_using_OpenAI.json",
+    "node_count": 24
+  },
+  {
+    "category": "WhatsApp",
+    "original_file": "Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp.json",
+    "saved_as": "WhatsApp__Automate_Sales_Meeting_Prep_with_AI_&_APIFY_Sent_To_WhatsApp.json",
+    "node_count": 61
+  },
+  {
+    "category": "WordPress",
+    "original_file": "Write a WordPress post with AI (starting from a few keywords).json",
+    "saved_as": "WordPress__Write_a_WordPress_post_with_AI_(starting_from_a_few_keywords).json",
+    "node_count": 37
+  },
+  {
+    "category": "WordPress",
+    "original_file": "Auto-Tag Blog Posts in WordPress with AI.json",
+    "saved_as": "WordPress__Auto-Tag_Blog_Posts_in_WordPress_with_AI.json",
+    "node_count": 32
+  },
+  {
+    "category": "WordPress",
+    "original_file": "WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI.json",
+    "saved_as": "WordPress__WordPress_-_AI_Chatbot_to_enhance_user_experience_-_with_Supabase_and_OpenAI.json",
+    "node_count": 53
+  },
+  {
+    "category": "WordPress",
+    "original_file": "Automate Content Generator for WordPress with DeepSeek R1.json",
+    "saved_as": "WordPress__Automate_Content_Generator_for_WordPress_with_DeepSeek_R1.json",
+    "node_count": 17
+  },
+  {
+    "category": "devops",
+    "original_file": "linux-update-via-webhook.json",
+    "saved_as": "devops__linux-update-via-webhook.json",
+    "node_count": 4
+  },
+  {
+    "category": "devops",
+    "original_file": "disk-space-watchdog.json",
+    "saved_as": "devops__disk-space-watchdog.json",
+    "node_count": 6
+  },
+  {
+    "category": "devops",
+    "original_file": "docker-compose-controller.json",
+    "saved_as": "devops__docker-compose-controller.json",
+    "node_count": 13
+  }
+]

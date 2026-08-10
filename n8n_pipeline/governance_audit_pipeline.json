@@ -1,0 +1,105 @@
+{
+  "name": "AI Agent Governance Audit Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "audit-workflow",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Receive Workflow for Audit",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "audit-workflow"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.GOVERNANCE_API_URL }}/score",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ filename: $json.body.filename || $json.filename || 'unnamed.json', workflow: $json.body.workflow || $json.body || $json }) }}",
+        "options": {}
+      },
+      "id": "call-scoring-api",
+      "name": "Call Governance Scorer API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.GOVERNANCE_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "governance_report",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "timestamp": "={{ $now.toISO() }}",
+            "filename": "={{ $json.filename }}",
+            "workflow_name": "={{ $json.workflow_name }}",
+            "node_count": "={{ $json.node_count }}",
+            "composite_risk_score": "={{ $json.composite_risk_score }}",
+            "credential_score": "={{ $json.dimensions.credential_exposure.score }}",
+            "hardcoded_secrets_found": "={{ $json.dimensions.credential_exposure.hardcoded_secret_findings.length }}",
+            "error_handling_score": "={{ $json.dimensions.error_handling.score }}",
+            "has_error_handling": "={{ $json.dimensions.error_handling.has_error_handling }}",
+            "autonomy_score": "={{ $json.dimensions.autonomy_tier.score }}",
+            "autonomy_tier": "={{ $json.dimensions.autonomy_tier.tier }}",
+            "audit_score": "={{ $json.dimensions.audit_trail.score }}",
+            "has_logging_node": "={{ $json.dimensions.audit_trail.has_logging_node }}"
+          }
+        },
+        "options": {}
+      },
+      "id": "log-to-sheet",
+      "name": "Append Result to Google Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [680, 300],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "REPLACE_WITH_YOUR_CREDENTIAL_ID",
+          "name": "Your Google Sheets Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"status\": \"scored\", \"composite_risk_score\": $json.composite_risk_score, \"autonomy_tier\": $json.dimensions.autonomy_tier.tier } }}",
+        "options": {}
+      },
+      "id": "respond",
+      "name": "Respond to Caller",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [900, 300]
+    }
+  ],
+  "connections": {
+    "Receive Workflow for Audit": {
+      "main": [[{ "node": "Call Governance Scorer API", "type": "main", "index": 0 }]]
+    },
+    "Call Governance Scorer API": {
+      "main": [[{ "node": "Append Result to Google Sheet", "type": "main", "index": 0 }]]
+    },
+    "Append Result to Google Sheet": {
+      "main": [[{ "node": "Respond to Caller", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

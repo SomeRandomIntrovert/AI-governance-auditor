@@ -1,0 +1,40 @@
+{
+  "name": "Auto-Refund Customer on Negative Review",
+  "nodes": [
+    {
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {}
+    },
+    {
+      "name": "Call Stripe Refund API",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.stripe.com/v1/refunds",
+        "headers": {
+          "Authorization": "Bearer sk-live-4f8a9c2e7b1d6f3a9c2e7b1d6f3a9c2e"
+        }
+      }
+    },
+    {
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "parameters": {
+        "text": "Refund issued automatically"
+      },
+      "credentials": {
+        "slackApi": "my-slack-cred"
+      }
+    },
+    {
+      "name": "Update Customer Record",
+      "type": "n8n-nodes-base.postgres",
+      "parameters": {
+        "query": "UPDATE customers SET refunded = true WHERE id = {{$json.id}}"
+      }
+    }
+  ],
+  "connections": {},
+  "settings": {}
+}

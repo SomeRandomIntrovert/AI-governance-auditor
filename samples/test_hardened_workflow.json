@@ -1,0 +1,74 @@
+{
+  "name": "Auto-Refund Customer on Negative Review (Hardened)",
+  "nodes": [
+    {
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {}
+    },
+    {
+      "name": "Slack Approval Gate",
+      "type": "n8n-nodes-base.slack",
+      "parameters": {
+        "operation": "sendAndWait",
+        "text": "Approve refund for this customer?"
+      },
+      "credentials": {
+        "slackApi": "my-slack-cred"
+      }
+    },
+    {
+      "name": "Call Stripe Refund API",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.stripe.com/v1/refunds",
+        "headers": {
+          "Authorization": "={{ $credentials.stripeApi.token }}"
+        }
+      },
+      "credentials": {
+        "stripeApi": "my-stripe-cred"
+      }
+    },
+    {
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "parameters": {
+        "text": "Refund issued after approval"
+      },
+      "credentials": {
+        "slackApi": "my-slack-cred"
+      }
+    },
+    {
+      "name": "Update Customer Record",
+      "type": "n8n-nodes-base.postgres",
+      "parameters": {
+        "query": "UPDATE customers SET refunded = true WHERE id = {{$json.id}}"
+      },
+      "credentials": {
+        "postgres": "my-pg-cred"
+      }
+    },
+    {
+      "name": "Write Audit Log Entry",
+      "type": "n8n-nodes-base.googleSheets",
+      "parameters": {
+        "operation": "append"
+      },
+      "credentials": {
+        "googleSheetsOAuth2Api": "my-sheets-cred"
+      }
+    },
+    {
+      "name": "Error Trigger",
+      "type": "n8n-nodes-base.errorTrigger",
+      "parameters": {}
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "errorWorkflow": "global-error-handler-workflow-id"
+  }
+}
