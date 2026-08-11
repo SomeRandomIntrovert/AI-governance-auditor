@@ -96,7 +96,6 @@ position in the execution graph).
 
 - **Dashboard:** https://datastudio.google.com/reporting/9c7db748-d105-424b-b0c4-6e04fc9bdfc8
 - **Repo:** https://github.com/SomeRandomIntrovert/AI-governance-auditor
-- **Demo:** [Loom walkthrough link — add after recording]
 
 ## Repo structure
 
